@@ -6,42 +6,11 @@ const routes = [
   { from: "Surat", to: "Ahmedabad", bg: "/images/ahemdabad.jpeg" },
   { from: "Ahmedabad", to: "Vadodara", bg: "/images/vadodara1.jpeg" },
   { from: "Surat", to: "Mumbai", bg: "/images/mumbai.jpeg" },
-  { from: "Surat", to: "Jaipur", bg: "/images/jaipur.jpeg" }, 
+  { from: "Surat", to: "Jaipur", bg: "/images/jaipur.jpeg" },
   { from: "Ahmedabad", to: "Udaipur", bg: "/images/udaipur.jpeg" },
-  { from: "Surat", to: "Anand", bg: "/images/anand.jpeg" }, 
-  { from: "Rajkot", to: "Surat", bg: "/images/surat.jpg" }, 
-  { from: "Mehsana", to: "Surat", bg: "/images/mehsana.jpeg" }, 
-];
-
-const destinations = [
-  {
-    id: 1,
-    name: "Santorini, Greece",
-    description: "Discover whitewashed buildings and stunning sunsets",
-    priceRange: "$1,200 - $2,500",
-    image: "/images/destination-1.jpg",
-  },
-  {
-    id: 2,
-    name: "Kyoto, Japan",
-    description: "Experience ancient temples and traditional culture",
-    priceRange: "$2,000 - $3,500",
-    image: "/images/destination-2.jpg",
-  },
-  {
-    id: 3,
-    name: "Machu Picchu, Peru",
-    description: "Explore the ancient Incan citadel",
-    priceRange: "$1,800 - $3,000",
-    image: "/images/destination-3.jpg",
-  },
-  {
-    id: 4,
-    name: "Maldives",
-    description: "Relax in overwater bungalows in paradise",
-    priceRange: "$3,000 - $5,000",
-    image: "/images/destination-4.jpg",
-  },
+  { from: "Surat", to: "Anand", bg: "/images/anand.jpeg" },
+  { from: "Rajkot", to: "Surat", bg: "/images/surat.jpg" },
+  { from: "Mehsana", to: "Surat", bg: "/images/mehsana.jpeg" },
 ];
 
 export default function FeaturedDestinations() {
