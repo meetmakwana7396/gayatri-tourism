@@ -16,14 +16,6 @@ export default function Header() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const navItems = [
-    { label: "Home", href: "/" },
-    { label: "Destinations", href: "/destinations" },
-    { label: "Tours", href: "/tours" },
-    { label: "About", href: "/about" },
-    { label: "Contact", href: "/contact" },
-  ];
-
   return (
     <header
       className={cn(

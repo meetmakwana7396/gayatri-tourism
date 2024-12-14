@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Phone, Send } from "lucide-react";
+import { Phone } from "lucide-react";
 import IconWhatsapp from "../icons/icon-whatsapp";
 
 const ContactIcons = () => {
@@ -34,7 +34,7 @@ const ContactIcons = () => {
         className="bg-blue-500 text-white size-14 rounded-full flex items-center justify-center shadow-lg hover:bg-blue-600 transition-all fixed bottom-8 right-8 z-50"
         aria-label="Call Us"
       >
-        <div className="inset-0 absolute bg-blue-500 animate-ping duration-[4000ms] rounded-full" />
+        <div className="inset-0 absolute bg-blue-500 animate-ping duration-1000 rounded-full" />
 
         <Phone fill="white" size={24} stroke="1" />
       </button>
@@ -45,7 +45,7 @@ const ContactIcons = () => {
         className="bg-green-500 text-white size-14 rounded-full flex items-center justify-center shadow-lg hover:bg-green-600 transition-all fixed bottom-8 left-8 z-50"
         aria-label="WhatsApp Us"
       >
-        <div className="inset-0 absolute bg-green-500 hover:bg-green-600 animate-ping duration-[4000ms] rounded-full" />
+        <div className="inset-0 absolute bg-green-500 hover:bg-green-600 animate-ping duration-1000 rounded-full" />
         <IconWhatsapp className="size-6" />
       </button>
     </div>

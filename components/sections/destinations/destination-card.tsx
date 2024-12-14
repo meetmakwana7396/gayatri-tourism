@@ -1,6 +1,10 @@
-import { ArrowRightLeft, MoveDown } from "lucide-react";
+import { ArrowRightLeft } from "lucide-react";
 
-export default function DestinationCard({ destination }: { destination: any }) {
+export default function DestinationCard({
+  destination,
+}: {
+  destination: { from: string; to: string; bg: string };
+}) {
   const { from, to, bg } = destination;
   return (
     <div

@@ -1,6 +1,6 @@
 "use client";
 import { Button } from "@/components/ui/button";
-import { Check, CircleCheck, PhoneCall, ShieldCheck } from "lucide-react";
+import { Check, PhoneCall } from "lucide-react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
