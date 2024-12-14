@@ -26,8 +26,8 @@ export default function FeatureCard({
     >
       <Card className="h-full hover:shadow-lg transition-shadow border-none">
         <CardContent className="p-6">
-          <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
-            <Icon className="h-6 w-6 text-primary" />
+          <div className="w-12 h-12 rounded-lg bg-blue-500/10 flex items-center justify-center mb-4">
+            <Icon className="h-6 w-6 text-blue-500" />
           </div>
           <h3 className="text-lg font-semibold mb-2">{title}</h3>
           <p className="text-gray-600 text-sm leading-relaxed">{description}</p>

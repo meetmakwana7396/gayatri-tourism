@@ -3,6 +3,7 @@
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Clock, Users, Star } from "lucide-react";
+import Image from "next/image";
 
 const tours = [
   {
@@ -43,7 +44,7 @@ export default function FeaturedTours() {
           {tours.map((tour) => (
             <Card key={tour.id} className="overflow-hidden">
               <div className="relative h-48">
-                <img
+                <Image
                   src={tour.image}
                   alt={tour.title}
                   className="w-full h-full object-cover"

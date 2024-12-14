@@ -2,6 +2,7 @@
 
 import { Card, CardContent } from "@/components/ui/card";
 import { MapPin } from "lucide-react";
+import Image from "next/image";
 
 const destinations = [
   {
@@ -33,10 +34,12 @@ export default function PopularDestinations() {
           {destinations.map((destination) => (
             <Card key={destination.id} className="overflow-hidden hover:shadow-lg transition-shadow">
               <div className="relative h-64">
-                <img
+                <Image
                   src={destination.image}
                   alt={destination.name}
                   className="w-full h-full object-cover"
+                  height={256}
+                  width={256}
                 />
               </div>
               <CardContent className="p-6">

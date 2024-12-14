@@ -6,7 +6,7 @@ import { Send } from "lucide-react";
 
 export default function Newsletter() {
   return (
-    <section className="py-20 bg-primary text-white">
+    <section className="py-20 bg-slate-900 text-white">
       <div className="container mx-auto">
         <div className="max-w-2xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-6">Stay Updated</h2>
@@ -19,7 +19,7 @@ export default function Newsletter() {
               placeholder="Enter your email"
               className="bg-white/10 border-white/20 text-white placeholder:text-gray-300"
             />
-            <Button variant="secondary" className="px-8">
+            <Button className="px-8">
               <Send className="h-4 w-4 mr-2" />
               Subscribe
             </Button>

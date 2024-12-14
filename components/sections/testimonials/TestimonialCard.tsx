@@ -2,6 +2,7 @@
 
 import { Card, CardContent } from "@/components/ui/card";
 import { Quote } from "lucide-react";
+import Image from "next/image";
 import { motion } from "framer-motion";
 
 interface TestimonialCardProps {
@@ -30,10 +31,12 @@ export default function TestimonialCard({
         <CardContent className="p-6">
           <div className="flex items-center gap-3 mb-4">
             <div className="w-10 h-10 rounded-full overflow-hidden flex-shrink-0">
-              <img
+              <Image
                 src={image}
                 alt={name}
                 className="w-full h-full object-cover"
+                width={40}
+                height={40}
               />
             </div>
             <div>

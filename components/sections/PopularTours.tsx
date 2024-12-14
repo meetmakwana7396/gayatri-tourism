@@ -4,6 +4,7 @@ import { useRef } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ChevronLeft, ChevronRight, Clock, Activity } from "lucide-react";
+import Image from "next/image";
 
 const tours = [
   {
@@ -80,12 +81,17 @@ export default function PopularTours() {
           style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
         >
           {tours.map((tour) => (
-            <Card key={tour.id} className="min-w-[300px] snap-start overflow-hidden">
+            <Card
+              key={tour.id}
+              className="min-w-[300px] snap-start overflow-hidden"
+            >
               <div className="relative h-48">
-                <img
+                <Image
                   src={tour.image}
                   alt={tour.name}
                   className="w-full h-full object-cover"
+                  height={192}
+                  width={192}
                 />
               </div>
               <CardContent className="p-6">

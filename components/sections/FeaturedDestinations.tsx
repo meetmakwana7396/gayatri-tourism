@@ -1,8 +1,17 @@
 "use client";
 
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { MapPin } from "lucide-react";
+import DestinationCard from "./destinations/destination-card";
+
+const routes = [
+  { from: "Surat", to: "Ahmedabad", bg: "/images/ahemdabad.jpeg" },
+  { from: "Ahmedabad", to: "Vadodara", bg: "/images/vadodara1.jpeg" },
+  { from: "Surat", to: "Mumbai", bg: "/images/mumbai.jpeg" },
+  { from: "Surat", to: "Jaipur", bg: "/images/jaipur.jpeg" }, 
+  { from: "Ahmedabad", to: "Udaipur", bg: "/images/udaipur.jpeg" },
+  { from: "Surat", to: "Anand", bg: "/images/anand.jpeg" }, 
+  { from: "Rajkot", to: "Surat", bg: "/images/surat.jpg" }, 
+  { from: "Mehsana", to: "Surat", bg: "/images/mehsana.jpeg" }, 
+];
 
 const destinations = [
   {
@@ -42,14 +51,16 @@ export default function FeaturedDestinations() {
         <h2 className="text-3xl font-bold text-center mb-12">
           Featured Destinations
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {destinations.map((destination) => (
             <Card key={destination.id} className="overflow-hidden group">
               <div className="relative h-64">
-                <img
+                <Image
                   src={destination.image}
                   alt={destination.name}
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  height={256}
+                  width={256}
                 />
               </div>
               <CardContent className="p-6">
@@ -70,6 +81,12 @@ export default function FeaturedDestinations() {
                 </div>
               </CardContent>
             </Card>
+          ))}
+        </div> */}
+
+        <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-4">
+          {routes.map((route, index) => (
+            <DestinationCard key={index} destination={route} />
           ))}
         </div>
       </div>

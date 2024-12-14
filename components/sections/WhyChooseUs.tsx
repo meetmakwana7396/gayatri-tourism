@@ -22,10 +22,10 @@ export default function WhyChooseUs() {
               <span className="text-primary">Gayatri Tourism</span>
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed mb-8">
-              We're dedicated to creating extraordinary travel experiences that
-              go beyond the ordinary. Our commitment to excellence, attention to
-              detail, and passion for travel make us the preferred choice for
-              adventurers worldwide.
+              We&apos;re dedicated to creating extraordinary travel experiences
+              that go beyond the ordinary. Our commitment to excellence,
+              attention to detail, and passion for travel make us the preferred
+              choice for adventurers worldwide.
             </p>
             <div className="flex gap-4">
               <div>
