@@ -1,27 +1,27 @@
 "use client";
 import { Button } from "@/components/ui/button";
-import { Check, PhoneCall } from "lucide-react";
+import { PhoneCall } from "lucide-react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="min-h-[calc(100vh-5rem)] pt-20 flex items-center">
+    <section className="min-h-[calc(100vh-5rem)] sm:pt-20 flex items-center">
       <div className="container h-full">
         <div className="grid lg:grid-cols-2 gap-12 items-center h-full">
           {/* Left Content  */}
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8 }}
+            transition={{ duration: 0.3 }}
             className="max-w-xl"
           >
-            <div className="border-2 border-blue-500 flex items-center justify-center shadow-blue-500/50 shadow-lg mb-4 text-xs font-bold bg-blue-500/20 w-fit text-blue-500 rounded-full py-1 px-2">
+            {/* <div className="border-2 border-blue-500 flex items-center justify-center shadow-blue-500/50 shadow-lg mb-4 text-xs font-bold bg-blue-500/20 w-fit text-blue-500 rounded-full py-1 px-2">
               <span className="bg-blue-500 rounded-full size-5 flex justify-center items-center mr-2">
                 <Check className="text-white size-4" />
               </span>{" "}
               10+ Years of experience
-            </div>
+            </div> */}
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6">
               Reliable Taxi Service,{" "}
               <span className="text-yellow-400">Anytime!</span>
@@ -35,9 +35,6 @@ export default function Hero() {
               <Button className="text-md h-auto py-3 px-6">
                 <PhoneCall className="h-5 w-5 mr-3" />
                 Call on +919876543210
-              </Button>
-              <Button variant="outline" className="text-md h-auto py-3 px-6">
-                View Popular Tours
               </Button>
             </div>
 

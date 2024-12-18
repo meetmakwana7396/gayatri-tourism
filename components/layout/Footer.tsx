@@ -6,6 +6,7 @@ import {
   Phone,
   MapPin,
 } from "lucide-react";
+import Link from "next/link";
 
 const socialLinks = [
   { icon: Facebook, href: "#" },
@@ -23,13 +24,13 @@ const quickLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-50 pt-16 pb-8">
+    <footer className="bg-yellow-500 pt-16 pb-8">
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-8">
           {/* Company Info */}
           <div>
             <h3 className="text-lg font-semibold mb-4">Gayatri Tourism</h3>
-            <p className="text-gray-600 mb-4">
+            <p className="text-black mb-4">
               Curating unforgettable travel experiences across the globe.
             </p>
             <div className="flex gap-4">
@@ -39,7 +40,7 @@ export default function Footer() {
                   <a
                     key={index}
                     href={social.href}
-                    className="text-gray-400 hover:text-primary transition-colors"
+                    className="text-black hover:text-primary transition-colors"
                   >
                     <Icon className="h-5 w-5" />
                   </a>
@@ -54,12 +55,12 @@ export default function Footer() {
             <ul className="space-y-2">
               {quickLinks.map((link) => (
                 <li key={link.label}>
-                  <a
+                  <Link
                     href={link.href}
-                    className="text-gray-600 hover:text-primary transition-colors"
+                    className="text-black hover:underline decoration-2 transition-colors"
                   >
                     {link.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -69,15 +70,15 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <div className="space-y-4">
-              <div className="flex items-center gap-2 text-gray-600">
+              <div className="flex items-center gap-2 text-black">
                 <Mail className="h-5 w-5" />
                 <span>contact@wanderlust.com</span>
               </div>
-              <div className="flex items-center gap-2 text-gray-600">
+              <div className="flex items-center gap-2 text-black">
                 <Phone className="h-5 w-5" />
                 <span>+1 (555) 123-4567</span>
               </div>
-              <div className="flex items-center gap-2 text-gray-600">
+              <div className="flex items-center gap-2 text-black">
                 <MapPin className="h-5 w-5" />
                 <span>123 Travel Street, Adventure City</span>
               </div>
@@ -85,7 +86,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-200 pt-8 text-center text-gray-600">
+        <div className="border-t border-black pt-8 text-left text-black">
           <p>
             &copy; {new Date().getFullYear()} Gayatri Tourism. All rights reserved.
           </p>

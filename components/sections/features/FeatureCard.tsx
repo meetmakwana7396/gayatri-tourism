@@ -24,13 +24,13 @@ export default function FeatureCard({
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
     >
-      <Card className="h-full hover:shadow-lg transition-shadow border-none">
-        <CardContent className="p-6">
-          <div className="w-12 h-12 rounded-lg bg-blue-500/10 flex items-center justify-center mb-4">
-            <Icon className="h-6 w-6 text-blue-500" />
+      <Card className="h-full border-neutral-200 rounded-2xl"> 
+        <CardContent className="sm:p-8 p-6 sm:space-y-6 space-y-4">
+          <div className="sm:size-12 size-10 rounded-full  flex items-center ring-2 ring-offset-2 ring-amber-500 justify-center">
+            <Icon className="sm:size-6 size-5 text-black" />
           </div>
-          <h3 className="text-lg font-semibold mb-2">{title}</h3>
-          <p className="text-gray-600 text-sm leading-relaxed">{description}</p>
+          <h3 className="sm:text-2xl text-xl font-semibold">{title}</h3>
+          <p className="text-gray-600 text-lg sm:leading-relaxed leading-normal">{description}</p>
         </CardContent>
       </Card>
     </motion.div>

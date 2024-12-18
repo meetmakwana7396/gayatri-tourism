@@ -1,13 +1,14 @@
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import Hero from "@/components/sections/Hero";
-import FeaturedDestinations from "@/components/sections/FeaturedDestinations";
-import PopularTours from "@/components/sections/PopularTours";
+// import FeaturedDestinations from "@/components/sections/FeaturedDestinations";
+// import PopularTours from "@/components/sections/PopularTours";
 import Testimonials from "@/components/sections/Testimonials";
-import Newsletter from "@/components/sections/Newsletter";
+// import Newsletter from "@/components/sections/Newsletter";
 import WhyChooseUs from "@/components/sections/WhyChooseUs";
 import Certificates from "@/components/sections/Certificates";
 import ContactIcons from "@/components/layout/ContacIcons";
+import AboutUs from "@/components/sections/about-us";
 
 export default function Home() {
   return (
@@ -16,12 +17,13 @@ export default function Home() {
       <main>
         <Hero />
         {/* <SearchFilters /> */}
-        <FeaturedDestinations />
+        {/* <FeaturedDestinations /> */}
+        <AboutUs />
         <WhyChooseUs />
-        <PopularTours />
+        {/* <PopularTours /> */}
         <Testimonials />
         <Certificates />
-        <Newsletter />
+        {/* <Newsletter /> */}
         <ContactIcons />
       </main>
       <Footer />

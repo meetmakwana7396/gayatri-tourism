@@ -1,29 +1,19 @@
-import { Globe, Shield, Headphones, Users } from "lucide-react";
+import { DollarSign, Clock, MapPin } from 'lucide-react';
 
 export const features = [
   {
-    icon: Globe,
-    title: "Worldwide Destinations",
-    description:
-      "Access to over 500+ carefully selected destinations across the globe, each vetted for exceptional experiences.",
+    icon: DollarSign,
+    title: "Best Deal",
+    description: "Affordable and high-quality taxi rides that give you the best value for money.",
   },
   {
-    icon: Shield,
-    title: "Safe & Reliable",
-    description:
-      "Your safety is our priority. We partner with trusted local operators and maintain strict safety standards.",
+    icon: Clock,
+    title: "Easy Booking",
+    description: "Seamless mobile booking that lets you arrange your ride with just a few taps.",
   },
   {
-    icon: Headphones,
-    title: "24/7 Support",
-    description:
-      "Round-the-clock customer support to assist you before, during, and after your journey.",
-  },
-  {
-    icon: Users,
-    title: "Expert Local Guides",
-    description:
-      "Knowledgeable local guides who provide authentic insights and create unforgettable experiences.",
+    icon: MapPin,
+    title: "Ride Anytime",
+    description: "24/7 transportation service ready to pick you up whenever and wherever you need.",
   },
 ];
-  

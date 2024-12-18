@@ -53,7 +53,7 @@ export default function PopularTours() {
   };
 
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="sm:py-20 py-14 bg-gray-50">
       <div className="container">
         <div className="flex items-center justify-between mb-12">
           <h2 className="text-3xl font-bold">Popular Tours</h2>

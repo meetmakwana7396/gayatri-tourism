@@ -71,28 +71,4 @@ export const testimonials = [
       "The Greek Islands tour exceeded all my expectations. The local guides were incredibly knowledgeable and the hidden beaches were breathtaking.",
     image: "/images/testimonial-4.jpeg",
   },
-  {
-    id: 10,
-    name: "Sophie Martin",
-    location: "Paris, France",
-    quote:
-      "The attention to detail and personalized service made our Maldives honeymoon absolutely perfect.",
-    image: "/images/testimonial-5.jpeg",
-  },
-  {
-    id: 11,
-    name: "James Wilson",
-    location: "Melbourne, Australia",
-    quote:
-      "The Amazon expedition was incredible. We saw so much wildlife and learned so much about the rainforest ecosystem.",
-    image: "/images/testimonial-1.jpeg",
-  },
-  {
-    id: 12,
-    name: "Emily Lee",
-    location: "Sydney, Australia",
-    quote:
-      "The Australian wilderness tour was an unforgettable experience. The guides were knowledgeable and the views were breathtaking.",
-    image: "/images/testimonial-2.jpeg",
-  },
 ];
