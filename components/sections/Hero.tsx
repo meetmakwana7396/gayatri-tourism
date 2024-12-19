@@ -38,21 +38,7 @@ export default function Hero() {
               </Button>
             </div>
 
-            {/* Stats */}
-            <div className="grid grid-cols-3 gap-8 mt-12">
-              <div>
-                <h3 className="text-3xl font-bold text-primary mb-2">500+</h3>
-                <p className="text-sm text-gray-600">Destinations</p>
-              </div>
-              <div>
-                <h3 className="text-3xl font-bold text-primary mb-2">1M+</h3>
-                <p className="text-sm text-gray-600">Happy Travelers</p>
-              </div>
-              <div>
-                <h3 className="text-3xl font-bold text-primary mb-2">98%</h3>
-                <p className="text-sm text-gray-600">Satisfaction</p>
-              </div>
-            </div>
+          
           </motion.div>
 
           {/* Right Content */}

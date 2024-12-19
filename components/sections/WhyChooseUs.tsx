@@ -8,9 +8,9 @@ export default function WhyChooseUs() {
     <section className="sm:py-20 py-14 bg-gray-50">
       <div className="items-center container space-y-10">
         <h2 className="sm:font-bold font-semibold text-4xl">
-          Why choose{" "}
+          Why Choose{" "}
           <span className="after:block after:-mt-3.5 after:bg-yellow-500/60 after:w-full after:h-3 inline-block">
-            <span className="relative text-black">us?</span>
+            <span className="relative text-black">Us?</span>
           </span>
         </h2>
         <div className="grid md:grid-cols-3 gap-6">
