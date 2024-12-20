@@ -20,8 +20,8 @@ export default function Home() {
         <Hero />
         {/* <SearchFilters /> */}
         {/* <FeaturedDestinations /> */}
-        <AboutUs />
         <WhyChooseUs />
+        <AboutUs />
         <CountUps />
         <ServiceSection />
         {/* <PopularTours /> */}

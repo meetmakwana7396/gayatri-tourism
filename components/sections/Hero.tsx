@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="min-h-[calc(100vh-5rem)] sm:pt-20 flex items-center">
+    <section className="sm:min-h-[calc(100vh-5rem)] pt-20 sm:pt-20 flex items-center">
       <div className="container h-full">
         <div className="grid lg:grid-cols-2 gap-12 items-center h-full">
           {/* Left Content  */}
@@ -23,13 +23,13 @@ export default function Hero() {
               10+ Years of experience
             </div> */}
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6">
-              Reliable Taxi Service,{" "}
-              <span className="text-yellow-400">Anytime!</span>
+              Your City,
+              <br /> Your Journey,{" "}
+              <span className="text-yellow-400">Our Wheels.</span>
             </h1>
             <p className="text-lg text-gray-600 mb-8">
-              Discover extraordinary destinations and create unforgettable
-              memories. Let us guide you through the world&apos;s most
-              breathtaking locations.
+              Wherever life takes you, we&apos;re here to make sure your journey is
+              as unforgettable as your destination.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button className="text-md h-auto py-3 px-6">
@@ -37,8 +37,6 @@ export default function Hero() {
                 Call on +919876543210
               </Button>
             </div>
-
-          
           </motion.div>
 
           {/* Right Content */}
@@ -46,7 +44,7 @@ export default function Hero() {
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="relative h-[500px] hidden lg:block"
+            className="relative h-[500px] "
           >
             <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-transparent rounded-3xl">
               <Image
