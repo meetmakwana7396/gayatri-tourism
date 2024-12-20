@@ -3,10 +3,11 @@ import { Button } from "@/components/ui/button";
 import { PhoneCall } from "lucide-react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import SearchFilters from "./SearchFilters";
 
 export default function Hero() {
   return (
-    <section className="sm:min-h-[calc(100vh-5rem)] pt-20 sm:pt-20 flex items-center">
+    <section className="sm:min-h-[calc(100vh-5rem)] pt-24 sm:pt-32 flex items-center">
       <div className="container h-full">
         <div className="grid lg:grid-cols-2 gap-12 items-center h-full">
           {/* Left Content  */}
@@ -25,11 +26,13 @@ export default function Hero() {
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6">
               Your City,
               <br /> Your Journey,{" "}
-              <span className="text-yellow-400">Our Wheels.</span>
+              <span className="after:block after:-mt-6 after:bg-yellow-500/60 after:w-full after:h-6 inline-block">
+                Our Wheels.
+              </span>
             </h1>
             <p className="text-lg text-gray-600 mb-8">
-              Wherever life takes you, we&apos;re here to make sure your journey is
-              as unforgettable as your destination.
+              Wherever life takes you, we&apos;re here to make sure your journey
+              is as unforgettable as your destination.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button className="text-md h-auto py-3 px-6">
@@ -57,6 +60,7 @@ export default function Hero() {
             </div>
           </motion.div>
         </div>
+        <SearchFilters />
       </div>
     </section>
   );

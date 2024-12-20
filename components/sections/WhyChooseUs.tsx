@@ -13,7 +13,7 @@ export default function WhyChooseUs() {
             <span className="relative text-black">Us?</span>
           </span>
         </h2>
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid lg:grid-cols-3 gap-6">
           {features.map((feature, index) => (
             <FeatureCard
               key={feature.title}
