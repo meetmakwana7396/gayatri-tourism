@@ -8,6 +8,13 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import { useForm } from "react-hook-form";
+
+type IForm = {
+  from: string;
+  to: string;
+  passengers: string;
+};
 
 const cities = [
   { name: "Surat", value: "surat" },
@@ -21,12 +28,37 @@ const cities = [
 ];
 
 export default function SearchFilters() {
+  const { watch, setValue, handleSubmit } = useForm<IForm>({
+    defaultValues: { from: "", to: "", passengers: "" },
+  });
+
+  const message = (formData: IForm) => {
+    // Detect mobile device
+    const isMobile =
+      /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+        navigator.userAgent
+      );
+    const message = `Hey i want your help to travel \n\nfrom: ${formData?.from} \nto: ${formData?.to} \nwith: ${formData?.passengers} passengers. \n\nCan you help me?`;
+    if (isMobile) {
+      // WhatsApp mobile deep link
+      window.location.href = `https://wa.me/+918320533702?text=${encodeURIComponent(message)}`;
+    } else {
+      // Fallback to web WhatsApp
+      window.open(`https://wa.me/+918320533702?text=${encodeURIComponent(message)}`, "_blank");
+    }
+  };
   return (
     <div className="container mt-8 relative sm:max-w-6xl w-full p-0">
-      <div className="bg-white border overflow-hidden shadow-lg shadow-neutral-300/40 rounded-xl p-2 flex flex-col sm:flex-row gap-2">
+      <form
+        onSubmit={handleSubmit(message)}
+        className="bg-white border overflow-hidden shadow-lg shadow-neutral-300/40 rounded-xl p-2 flex flex-col sm:flex-row gap-2"
+      >
         <div className="grid grid-cols-1 md:grid-cols-3 gap-2 shrink-0 grow">
           <div className="relative w-full">
-            <Select>
+            <Select
+              value={watch("from")}
+              onValueChange={(value) => setValue("from", value)}
+            >
               <SelectTrigger className="border-0 rounded-lg px-4 !h-16 text-lg hover:bg-neutral-100">
                 <SelectValue placeholder="From" />
               </SelectTrigger>
@@ -41,7 +73,10 @@ export default function SearchFilters() {
           </div>
 
           <div className="relative w-full">
-            <Select>
+            <Select
+              value={watch("to")}
+              onValueChange={(value) => setValue("to", value)}
+            >
               <SelectTrigger className="border-0 rounded-lg px-4 !h-16 text-lg hover:bg-neutral-100">
                 <SelectValue placeholder="To" />
               </SelectTrigger>
@@ -55,7 +90,10 @@ export default function SearchFilters() {
             </Select>
           </div>
           <div className="relative w-full">
-            <Select>
+            <Select
+              value={watch("passengers")}
+              onValueChange={(value) => setValue("passengers", value)}
+            >
               <SelectTrigger className="border-0 rounded-lg px-4 !h-16 text-lg hover:bg-neutral-100">
                 <SelectValue placeholder="No of passengers" />
               </SelectTrigger>
@@ -75,7 +113,7 @@ export default function SearchFilters() {
             Book
           </Button>
         </div>
-      </div>
+      </form>
     </div>
   );
 }

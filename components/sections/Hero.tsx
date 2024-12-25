@@ -1,9 +1,8 @@
 "use client";
-import { Button } from "@/components/ui/button";
-import { PhoneCall } from "lucide-react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import SearchFilters from "./SearchFilters";
+import CallUsButton from "../call-us-button";
 
 export default function Hero() {
   return (
@@ -31,14 +30,11 @@ export default function Hero() {
               </span>
             </h1>
             <p className="text-lg text-gray-600 mb-8">
-              Wherever life takes you, we&apos;re here to make sure your journey
-              is as unforgettable as your destination.
+              Making your daily city travels easy and comfortable, from home to
+              office and beyond 
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="text-md h-auto py-3 px-6">
-                <PhoneCall className="h-5 w-5 mr-3" />
-                Call on +919876543210
-              </Button>
+              <CallUsButton />
             </div>
           </motion.div>
 
