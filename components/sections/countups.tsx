@@ -8,8 +8,8 @@ const CountUps = () => {
       <div className="container grid sm:grid-cols-3 gap-10">
         <div className="block">
           <CountUp
-            start={5}
-            end={10}
+            start={0}
+            end={5}
             duration={5}
             enableScrollSpy
             scrollSpyDelay={500}
@@ -28,8 +28,8 @@ const CountUps = () => {
         </div>
         <div className="block">
           <CountUp
-            start={950}
-            end={999}
+            start={3000}
+            end={5000}
             duration={5}
             enableScrollSpy
             scrollSpyDelay={500}
@@ -49,7 +49,7 @@ const CountUps = () => {
         <div className="block">
           <CountUp
             start={5}
-            end={12}
+            end={7}
             duration={5}
             enableScrollSpy
             scrollSpyDelay={500}
