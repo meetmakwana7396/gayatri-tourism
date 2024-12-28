@@ -24,7 +24,7 @@ export default function Hero() {
             </div> */}
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6">
               Affordable Taxi
-              <br /> At Your
+              <br /> At Your{' '}
               <span className="after:block after:-mt-6 after:bg-yellow-500/60 after:w-full after:h-6 inline-block">
                 Fingertips.
               </span>
