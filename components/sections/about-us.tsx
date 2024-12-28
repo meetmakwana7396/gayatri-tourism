@@ -36,11 +36,11 @@ const AboutUs = () => {
           <h2 className="sm:font-bold font-semibold text-4xl mb-10">
             About{" "}
             <span className="after:block after:-mt-3.5 after:bg-yellow-500/60 after:w-full after:h-3 inline-block">
-              <span className="relative text-black">Gayatri Tourism</span>
+              <span className="relative text-black">GoOneWay</span>
             </span>
           </h2>{" "}
           <p className="text-gray-600 text-xl leading-relaxed mb-4">
-            At Gayatri Tourism, your journey is our priority. We offer safe,
+            At GoOneWay, your journey is our priority. We offer safe,
             reliable, and comfortable transportation with a fleet of
             well-maintained vehicles and professional drivers.
           </p>

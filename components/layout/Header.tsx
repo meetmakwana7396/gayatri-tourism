@@ -32,7 +32,7 @@ export default function Header() {
           <div className="flex items-center gap-2 text-primary">
             {/* <Plane className="h-6 w-6" /> */}
             <span className="sm:text-3xl text-xl font-extrabold">
-              GAYATRI TOURISM
+              GoOneWay
             </span>
           </div>
 

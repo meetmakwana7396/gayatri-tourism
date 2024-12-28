@@ -29,7 +29,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Gayatri Tourism</h3>
+            <h3 className="text-lg font-semibold mb-4">GoOneWay</h3>
             <p className="text-black mb-4">
               Curating unforgettable travel experiences across the globe.
             </p>
@@ -88,7 +88,7 @@ export default function Footer() {
 
         <div className="border-t border-black pt-8 text-left text-black">
           <p>
-            &copy; {new Date().getFullYear()} Gayatri Tourism. All rights reserved.
+            &copy; {new Date().getFullYear()} GoOneWay. All rights reserved.
           </p>
         </div>
       </div>

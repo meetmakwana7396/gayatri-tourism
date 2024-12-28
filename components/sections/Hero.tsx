@@ -23,15 +23,15 @@ export default function Hero() {
               10+ Years of experience
             </div> */}
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6">
-              Your City,
-              <br /> Your Journey,{" "}
+              Affordable Taxi
+              <br /> At Your
               <span className="after:block after:-mt-6 after:bg-yellow-500/60 after:w-full after:h-6 inline-block">
-                Our Wheels.
+                Fingertips.
               </span>
             </h1>
             <p className="text-lg text-gray-600 mb-8">
               Making your daily city travels easy and comfortable, from home to
-              office and beyond 
+              office and beyond
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <CallUsButton />

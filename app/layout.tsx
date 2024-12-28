@@ -8,7 +8,7 @@ const hostGrotesk = Parkinsans({
 });
 
 export const metadata: Metadata = {
-  title: "Gayatri Tourism - Discover Amazing Tours & Travel Experiences",
+  title: "GoOneWay - Discover Amazing Tours & Travel Experiences",
   description:
     "Explore the world with our curated collection of tours and travel experiences. Find your next adventure today.",
 };
