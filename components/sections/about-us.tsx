@@ -1,11 +1,12 @@
 "use client";
+
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 
 const AboutUs = () => {
   return (
-    <div className="container mx-auto px-4 sm:py-20 py-14">
+    <section className="container mx-auto px-4 sm:py-20 py-14" id="about-us">
       <div className="flex flex-col md:flex-row items-start justify-center space-y-8 md:space-y-0 md:space-x-12">
         {/* Image Container */}
         <motion.div
@@ -40,9 +41,9 @@ const AboutUs = () => {
             </span>
           </h2>{" "}
           <p className="text-gray-600 text-xl leading-relaxed mb-4">
-            At GoOneWay, your journey is our priority. We offer safe,
-            reliable, and comfortable transportation with a fleet of
-            well-maintained vehicles and professional drivers.
+            At GoOneWay, your journey is our priority. We offer safe, reliable,
+            and comfortable transportation with a fleet of well-maintained
+            vehicles and professional drivers.
           </p>
           <p className="text-gray-600 text-xl leading-relaxed mb-4">
             Whether it’s a quick local ride, an airport transfer, or a
@@ -52,7 +53,7 @@ const AboutUs = () => {
           </p>
         </motion.div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -4,7 +4,7 @@ import {
   Instagram,
   Mail,
   Phone,
-  MapPin,
+  // MapPin,
 } from "lucide-react";
 import Link from "next/link";
 
@@ -15,7 +15,7 @@ const socialLinks = [
 ];
 
 const quickLinks = [
-  { label: "About Us", href: "#" },
+  { label: "About Us", href: "#about-us" },
   { label: "Destinations", href: "#" },
   { label: "Tours", href: "#" },
   { label: "Blog", href: "#" },
@@ -72,16 +72,16 @@ export default function Footer() {
             <div className="space-y-4">
               <div className="flex items-center gap-2 text-black">
                 <Mail className="h-5 w-5" />
-                <span>contact@wanderlust.com</span>
+                <span>gooneway.support@gmail.com</span>
               </div>
               <div className="flex items-center gap-2 text-black">
                 <Phone className="h-5 w-5" />
                 <span>+1 (555) 123-4567</span>
               </div>
-              <div className="flex items-center gap-2 text-black">
+              {/* <div className="flex items-center gap-2 text-black">
                 <MapPin className="h-5 w-5" />
                 <span>123 Travel Street, Adventure City</span>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

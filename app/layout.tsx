@@ -1,3 +1,4 @@
+import { cn } from "@/lib/utils";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Parkinsans } from "next/font/google";
@@ -20,7 +21,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={parkinSans.className}>{children}</body>
+      <body className={cn(parkinSans.className, "!scroll-pt-[500px]")}>
+        {children}
+      </body>
     </html>
   );
 }
