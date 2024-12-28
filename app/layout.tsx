@@ -2,7 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Parkinsans } from "next/font/google";
 
-const hostGrotesk = Parkinsans({
+const parkinSans = Parkinsans({
   subsets: ["latin"],
   // weight: ["400", "700"],
 });
@@ -20,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={hostGrotesk.className}>{children}</body>
+      <body className={parkinSans.className}>{children}</body>
     </html>
   );
 }
