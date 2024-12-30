@@ -1,74 +1,50 @@
 export const testimonials = [
   {
     id: 1,
-    name: "Sarah Johnson",
+    name: "Ashwin Bhai",
     location: "New York, USA",
     quote:
-      "The Greek Islands tour exceeded all my expectations. The local guides were incredibly knowledgeable and the hidden beaches were breathtaking.",
+      "Affordable and timely service from Surat to Mumbai Airport. Very happy with the service.",
     image: "/images/testimonial-1.jpeg",
   },
   {
     id: 2,
-    name: "Michael Chen",
+    name: "Meenaben",
     location: "Singapore",
     quote:
-      "An unforgettable safari experience. Every detail was perfectly planned, and we saw all the Big Five!",
+      "Highly recommend for female travelers. Safe and well-trained drivers.",
     image: "/images/testimonial-2.jpeg",
   },
   {
     id: 3,
-    name: "Emma Wilson",
+    name: "Maheshbhai",
     location: "London, UK",
     quote:
-      "The Japan cultural tour was a perfect blend of modern and traditional experiences. The local insights were invaluable.",
+      "Excellent service. Reliable and stress-free journey. Will recommend to family and friends.",
     image: "/images/testimonial-3.jpeg",
   },
   {
     id: 4,
-    name: "David Rodriguez",
+    name: "Aakash",
     location: "Barcelona, Spain",
     quote:
-      "Hiking Machu Picchu with their expert guides was a life-changing experience. The views were absolutely stunning.",
+      "Happy with Udaipur trip service. Clear website, timely pick-up and drop. Will use again.",
     image: "/images/testimonial-4.jpeg",
   },
   {
     id: 5,
-    name: "Sophie Martin",
+    name: "Rameshbhai",
     location: "Paris, France",
     quote:
-      "The attention to detail and personalized service made our Maldives honeymoon absolutely perfect.",
+      "Good car and helpful driver for Rajkot trip. Reasonable pricing. Will hire again.",
     image: "/images/testimonial-5.jpeg",
   },
   {
     id: 6,
-    name: "James Wilson",
+    name: "Jitubhai",
     location: "Melbourne, Australia",
     quote:
-      "The Amazon expedition was incredible. We saw so much wildlife and learned so much about the rainforest ecosystem.",
+      "Excellent experience. Quick booking, on-time driver, clean car, affordable rates. Highly recommend.",
     image: "/images/testimonial-1.jpeg",
-  },
-  {
-    id: 7,
-    name: "Emily Lee",
-    location: "Sydney, Australia",
-    quote:
-      "The Australian wilderness tour was an unforgettable experience. The guides were knowledgeable and the views were breathtaking.",
-    image: "/images/testimonial-2.jpeg",
-  },
-  {
-    id: 8,
-    name: "Michael Chen",
-    location: "Singapore",
-    quote:
-      "An unforgettable safari experience. Every detail was perfectly planned, and we saw all the Big Five!",
-    image: "/images/testimonial-3.jpeg",
-  },
-  {
-    id: 9,
-    name: "Sarah Johnson",
-    location: "New York, USA",
-    quote:
-      "The Greek Islands tour exceeded all my expectations. The local guides were incredibly knowledgeable and the hidden beaches were breathtaking.",
-    image: "/images/testimonial-4.jpeg",
   },
 ];

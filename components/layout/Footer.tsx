@@ -26,7 +26,7 @@ export default function Footer() {
   return (
     <footer className="bg-yellow-500 pt-16 pb-8">
       <div className="container">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 mb-8">
           {/* Company Info */}
           <div>
             <h3 className="text-lg font-semibold mb-4">GoOneWay</h3>
@@ -71,7 +71,7 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <div className="space-y-4">
               <div className="flex items-center gap-2 text-black">
-                <Mail className="h-5 w-5" />
+                <Mail className="h-5 w-5 shrink-0" />
                 <span>gooneway.support@gmail.com</span>
               </div>
               <div className="flex items-center gap-2 text-black">

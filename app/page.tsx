@@ -11,6 +11,7 @@ import ContactIcons from "@/components/layout/ContacIcons";
 import AboutUs from "@/components/sections/about-us";
 import CountUps from "@/components/sections/countups";
 import ServiceSection from "@/components/sections/service-section";
+import CarSection from "@/components/sections/car-section";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         {/* <FeaturedDestinations /> */}
         <WhyChooseUs />
         <AboutUs />
+        <CarSection />
         <CountUps />
         <ServiceSection />
         {/* <PopularTours /> */}

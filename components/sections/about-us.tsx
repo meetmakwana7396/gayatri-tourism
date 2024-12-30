@@ -42,14 +42,20 @@ const AboutUs = () => {
           </h2>{" "}
           <p className="text-gray-600 text-xl leading-relaxed mb-4">
             At GoOneWay, your journey is our priority. We offer safe, reliable,
-            and comfortable transportation with a fleet of well-maintained
-            vehicles and professional drivers.
+            and comfortable transportation with a fleet of well-maintained brand
+            new cars and professional drivers with excellent communication
+            skills to make your experience pleasant and smooth.
           </p>
           <p className="text-gray-600 text-xl leading-relaxed mb-4">
-            Whether it’s a quick local ride, an airport transfer, or a
+            Whether it&apos;s a quick local ride, an airport transfer, or a
             long-distance trip, we ensure timely and hassle-free service
-            tailored to your needs. Customer satisfaction, safety, and
-            punctuality are the heart of what we do.
+            tailored to your needs. We are working with all major cities of like
+            Ahmedabad, Surat, Jaipur, Udaipur, Mumbai, and more. We offer
+            Outstation taxi bookings services, One way Cab hire services, and
+            Corporate car rental services In Gujarat, India.
+          </p>
+          <p className="text-gray-600 text-xl leading-relaxed mb-4">
+            Go One Way Your Taxi Cab Service Partner!
           </p>
         </motion.div>
       </div>

@@ -23,7 +23,7 @@ const ServiceSection = () => {
     },
     {
       icon: Users,
-      title: "Group Travel",
+      title: "Business Travel Cab Services",
       description:
         "Spacious vans and minibuses available for large groups or families. Comfortable seating with extra space for luggage and equipment.",
     },
@@ -43,14 +43,14 @@ const ServiceSection = () => {
 
   return (
     <section className="sm:py-20 py-14 bg-gray-50">
-      <div className="items-center container space-y-20">
+      <div className="items-center container space-y-10">
         <h2 className="sm:font-bold font-semibold text-4xl">
           Our{" "}
           <span className="after:block after:-mt-3.5 after:bg-yellow-500/60 after:w-full after:h-3 inline-block">
             <span className="relative text-black">Services</span>
           </span>
         </h2>
-        <div className="grid sm:grid-cols-3 gap-4 sm:gap-20">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-20">
           {services.map((service, index) => (
             <div
               key={index}
