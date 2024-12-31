@@ -6,6 +6,7 @@ import { Parkinsans } from "next/font/google";
 const parkinSans = Parkinsans({
   subsets: ["latin"],
   // weight: ["400", "700"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {

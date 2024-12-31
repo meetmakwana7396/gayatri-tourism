@@ -16,10 +16,8 @@ const socialLinks = [
 
 const quickLinks = [
   { label: "About Us", href: "#about-us" },
-  { label: "Destinations", href: "#" },
-  { label: "Tours", href: "#" },
-  { label: "Blog", href: "#" },
-  { label: "Contact", href: "#" },
+  { label: "Services", href: "#services" },
+
 ];
 
 export default function Footer() {
@@ -37,13 +35,13 @@ export default function Footer() {
               {socialLinks.map((social, index) => {
                 const Icon = social.icon;
                 return (
-                  <a
+                  <Link
                     key={index}
                     href={social.href}
                     className="text-black hover:text-primary transition-colors"
                   >
                     <Icon className="h-5 w-5" />
-                  </a>
+                  </Link>
                 );
               })}
             </div>
