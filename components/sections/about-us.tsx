@@ -37,11 +37,11 @@ const AboutUs = () => {
           <h2 className="sm:font-bold font-semibold text-4xl mb-10">
             About{" "}
             <span className="after:block after:-mt-3.5 after:bg-yellow-500/60 after:w-full after:h-3 inline-block">
-              <span className="relative text-black">GoOneWay</span>
+              <span className="relative text-black">Gayatri Taxi Service</span>
             </span>
           </h2>{" "}
           <p className="text-gray-600 text-xl leading-relaxed mb-4">
-            At GoOneWay, your journey is our priority. We offer safe, reliable,
+            At Gayatri Taxi Service, your journey is our priority. We offer safe, reliable,
             and comfortable transportation with a fleet of well-maintained brand
             new cars and professional drivers with excellent communication
             skills to make your experience pleasant and smooth.

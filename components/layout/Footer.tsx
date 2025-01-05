@@ -27,7 +27,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 mb-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">GoOneWay</h3>
+            <h3 className="text-lg font-semibold mb-4">Gayatri Taxi Service</h3>
             <p className="text-black mb-4">
               Curating unforgettable travel experiences across the globe.
             </p>
@@ -70,7 +70,7 @@ export default function Footer() {
             <div className="space-y-4">
               <div className="flex items-center gap-2 text-black">
                 <Mail className="h-5 w-5 shrink-0" />
-                <span>gooneway.support@gmail.com</span>
+                <span>gayatritaxiservice.support@gmail.com</span>
               </div>
               <div className="flex items-center gap-2 text-black">
                 <Phone className="h-5 w-5" />
@@ -86,7 +86,7 @@ export default function Footer() {
 
         <div className="border-t border-black pt-8 text-left text-black">
           <p>
-            &copy; {new Date().getFullYear()} GoOneWay. All rights reserved.
+            &copy; {new Date().getFullYear()} Gayatri Taxi Service. All rights reserved.
           </p>
         </div>
       </div>

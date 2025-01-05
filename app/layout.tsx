@@ -10,7 +10,7 @@ const parkinSans = Parkinsans({
 });
 
 export const metadata: Metadata = {
-  title: "GoOneWay - Discover Amazing Tours & Travel Experiences",
+  title: "Gayatri Taxi Service - Discover Amazing Tours & Travel Experiences",
   description:
     "Explore the world with our curated collection of tours and travel experiences. Find your next adventure today.",
 };

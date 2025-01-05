@@ -26,7 +26,7 @@ export default function Header() {
         <nav className={cn("flex items-center justify-between sm:py-8 py-6")}>
           <div className="flex items-center gap-2 text-primary">
             {/* <Plane className="h-6 w-6" /> */}
-            <span className="sm:text-3xl text-xl font-extrabold">GoOneWay</span>
+            <span className="sm:text-3xl text-xl font-extrabold">Gayatri Taxi Service</span>
           </div>
 
           <div className="sm:block hidden">
