@@ -41,10 +41,10 @@ export default function SearchFilters() {
     const message = `Hey i want your help to travel \n\nfrom: ${formData?.from} \nto: ${formData?.to} \nwith: ${formData?.passengers} passengers. \n\nCan you help me?`;
     if (isMobile) {
       // WhatsApp mobile deep link
-      window.location.href = `https://wa.me/+918320533702?text=${encodeURIComponent(message)}`;
+      window.location.href = `https://wa.me/+919265857732?text=${encodeURIComponent(message)}`;
     } else {
       // Fallback to web WhatsApp
-      window.open(`https://wa.me/+918320533702?text=${encodeURIComponent(message)}`, "_blank");
+      window.open(`https://wa.me/+919265857732?text=${encodeURIComponent(message)}`, "_blank");
     }
   };
   return (
