@@ -19,10 +19,10 @@ const ContactIcons = () => {
       "Hey, I need your help. I'm in need of a ride to the nearest taxi station. Can you help me?";
     if (isMobile) {
       // WhatsApp mobile deep link
-      window.location.href = `https://wa.me/9265857732?text=${message}`;
+      window.location.href = `https://wa.me/${process.env.NEXT_PUBLIC_CONTACT_NUMBER}?text=${message}`;
     } else {
       // Fallback to web WhatsApp
-      window.open(`https://wa.me/9265857732?text=${message}`, "_blank");
+      window.open(`https://wa.me/${process.env.NEXT_PUBLIC_CONTACT_NUMBER}?text=${message}`, "_blank");
     }
   };
 

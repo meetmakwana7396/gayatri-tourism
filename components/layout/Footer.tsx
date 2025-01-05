@@ -17,7 +17,6 @@ const socialLinks = [
 const quickLinks = [
   { label: "About Us", href: "#about-us" },
   { label: "Services", href: "#services" },
-
 ];
 
 export default function Footer() {
@@ -74,7 +73,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-2 text-black">
                 <Phone className="h-5 w-5" />
-                <span>(+91) 9265857732</span>
+                <span>{process.env.NEXT_PUBLIC_CONTACT_NUMBER}</span>
               </div>
               {/* <div className="flex items-center gap-2 text-black">
                 <MapPin className="h-5 w-5" />
@@ -86,7 +85,8 @@ export default function Footer() {
 
         <div className="border-t border-black pt-8 text-left text-black">
           <p>
-            &copy; {new Date().getFullYear()} Gayatri Taxi Service. All rights reserved.
+            &copy; {new Date().getFullYear()} Gayatri Taxi Service. All rights
+            reserved.
           </p>
         </div>
       </div>
