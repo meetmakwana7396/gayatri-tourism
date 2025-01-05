@@ -70,11 +70,11 @@ export default function Footer() {
             <div className="space-y-4">
               <div className="flex items-center gap-2 text-black">
                 <Mail className="h-5 w-5 shrink-0" />
-                <span>gayatritaxiservice.support@gmail.com</span>
+                <span>help.gayatritaxiservice@gmail.com</span>
               </div>
               <div className="flex items-center gap-2 text-black">
                 <Phone className="h-5 w-5" />
-                <span>+1 (555) 123-4567</span>
+                <span>(+91) 9265857732</span>
               </div>
               {/* <div className="flex items-center gap-2 text-black">
                 <MapPin className="h-5 w-5" />

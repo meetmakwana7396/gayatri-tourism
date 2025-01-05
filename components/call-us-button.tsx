@@ -5,10 +5,10 @@ import { PhoneCall } from "lucide-react";
 
 export default function CallUsButton() {
   return (
-    <Link href="tel:+919876543210">
+    <Link href="tel:+919265857732">
       <Button className="text-md h-auto py-3 px-6">
         <PhoneCall className="h-5 w-5 mr-3" />
-        Call on +919876543210
+        Call on (+91) 9265857732
       </Button>
     </Link>
   );
