@@ -9,10 +9,46 @@ const parkinSans = Parkinsans({
   display: "swap",
 });
 
+// export const metadata: Metadata = {
+//   title: "Gayatri Taxi Service",
+//   description:
+//     "Fast and reliable taxi service in the city. Book a taxi now and enjoy your ride.",
+// };
+
 export const metadata: Metadata = {
-  title: "Gayatri Taxi Service - Discover Amazing Tours & Travel Experiences",
+  title: "Gayatri Taxi Service",
   description:
-    "Explore the world with our curated collection of tours and travel experiences. Find your next adventure today.",
+    "Fast and reliable taxi service in the city. Book a taxi now and enjoy your ride.",
+  keywords: [
+    "Taxi",
+    "Surat Taxi",
+    "Ahemdabad Taxi",
+    "Intercity Taxi",
+    "Airport Taxi",
+    "Best Taxi Service",
+    "Cab",
+    "Surat Cab",
+  ],
+  openGraph: {
+    type: "website",
+    url: "https://www.gooneway.in/",
+    title: "Gayatri Taxi Service",
+    description:
+      "Fast and reliable taxi service in the city. Book a taxi now and enjoy your ride.",
+    images: [
+      {
+        url: "/images/site-preview-img.png",
+        alt: "Gayatri Taxi Service",
+      },
+    ],
+  },
+  twitter: {
+    title: "Gayatri Taxi Service",
+    description:
+      "Fast and reliable taxi service in the city. Book a taxi now and enjoy your ride.",
+    images: ["/images/site-preview-img.png"],
+  },
+  robots: "index, follow",
 };
 
 export default function RootLayout({
