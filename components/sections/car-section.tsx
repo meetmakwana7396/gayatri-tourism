@@ -9,7 +9,7 @@ const cars = [
     image: "/images/innova-crysta.webp",
     seats: 7,
   },
-  { id: 4, name: "Innova", image: "/images/innova-crysta.webp", seats: 7 },
+  { id: 4, name: "Innova", image: "/images/innova.avif", seats: 7 },
   {
     id: 1,
     name: "Maruti Ertiga",
@@ -20,7 +20,7 @@ const cars = [
 
 const CarSection: React.FC = () => {
   return (
-    <section className="sm:py-20 py-14 bg-gray-50">
+    <section className="sm:py-20 py-14 bg-gray-50" id="rides">
       <div className="items-center container space-y-20">
         <div className="">
           <h2 className="sm:font-bold mb-4 font-semibold text-center text-4xl">

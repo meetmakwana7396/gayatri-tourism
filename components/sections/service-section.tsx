@@ -42,7 +42,7 @@ const ServiceSection = () => {
   ];
 
   return (
-    <section className="sm:py-20 py-14 bg-gray-50" id="#services">
+    <section className="sm:py-20 py-14 bg-gray-50" id="services">
       <div className="items-center container space-y-10">
         <h2 className="sm:font-bold font-semibold text-4xl">
           Our{" "}

@@ -5,7 +5,7 @@ import { features } from "./features/FeatureData";
 
 export default function WhyChooseUs() {
   return (
-    <section className="sm:py-20 py-14 bg-gray-50">
+    <section className="sm:py-20 py-14 bg-gray-50" id="why-choose-us">
       <div className="items-center container space-y-10">
         <h2 className="sm:font-bold font-semibold text-4xl">
           Why Choose{" "}
