@@ -41,7 +41,7 @@ const CarSection: React.FC = () => {
                 alt={car.name}
                 width={300}
                 height={200}
-                className="h-full bg-gray-500 w-full shadow"
+                className="h-full bg-gray-500 w-full shadow border-b-8 border-yellow-300"
               />
               <div className="space-y-2 text-center">
                 <h3 className="font-medium text-xl">{car.name}</h3>
