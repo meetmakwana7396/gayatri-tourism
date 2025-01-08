@@ -6,15 +6,8 @@ import Script from "next/script";
 
 const parkinSans = Parkinsans({
   subsets: ["latin"],
-  // weight: ["400", "700"],
   display: "swap",
 });
-
-// export const metadata: Metadata = {
-//   title: "Gayatri Taxi Service",
-//   description:
-//     "Fast and reliable taxi service in the city. Book a taxi now and enjoy your ride.",
-// };
 
 export const metadata: Metadata = {
   title: "Gayatri Taxi Service",
@@ -32,7 +25,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     type: "website",
-    url: "https://www.gooneway.in/",
+    url: process.env.NEXT_PUBLIC_APP_URL,
     title: "Gayatri Taxi Service",
     description:
       "Fast and reliable taxi service in the city. Book a taxi now and enjoy your ride.",
